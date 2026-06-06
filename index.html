@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harta Web Focșani</title>
+    <script type="module" crossorigin src="./assets/index-CT4XGzRS.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CcROPYtq.css">
+  </head>
+  <body>
+    <div id="basemap-control">
+      <label><b>Hartă de fundal:</b></label>
+      <select id="basemap-select">
+        <option value="osm">OpenStreetMap</option>
+        <option value="carto">CartoDB Positron (Elegant)</option>
+      </select>
+    </div>
+    <div id="map"></div>
+    <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+    </div>
+  </body>
+</html>
